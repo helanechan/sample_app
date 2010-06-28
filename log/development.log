@@ -19,3 +19,50 @@ Rendering rescues/layout (not_found)
 Processing PagesController#home (for 127.0.0.1 at 2010-06-28 14:18:08) [GET]
 Rendering pages/home
 Completed in 35ms (View: 34, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-28 15:37:47) [GET]
+Rendering pages/home
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 15:37:50) [GET]
+
+ActionController::RoutingError (No route matches "/controller/action" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 15:37:50) [GET]
+
+ActionController::RoutingError (No route matches "/controllers/action" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contacts (for 127.0.0.1 at 2010-06-28 15:38:00) [GET]
+
+ActionController::UnknownAction (No action responded to contacts. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-28 15:38:07) [GET]
+Rendering pages/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contacts (for 127.0.0.1 at 2010-06-28 15:38:26) [GET]
+
+ActionController::UnknownAction (No action responded to contacts. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-28 15:38:28) [GET]
+Rendering pages/contact
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
