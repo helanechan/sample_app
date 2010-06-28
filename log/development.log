@@ -66,3 +66,11 @@ Rendering rescues/layout (not_found)
 Processing PagesController#contact (for 127.0.0.1 at 2010-06-28 15:38:28) [GET]
 Rendering pages/contact
 Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-28 16:01:34) [GET]
+
+ActionController::RoutingError (No route matches "/help.html" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
